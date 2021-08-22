@@ -311,10 +311,6 @@ h3 {
     background-color: #0052C1;
 }
 
-.complex {
-    margin-bottom: 20px;
-}
-
 .complex__wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr); 
@@ -385,6 +381,35 @@ h3 {
     background-color: #8F00FF;
 }
 
+.therapy-list {
+    padding: 20px 0 40px;
+}
 
+.therapy-list__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(2,1fr);
+}
 
+.therapy-list__box {
+    width: 480px;
+    height: 240px;
+    padding: 55px 77px 37px 105px;
+}
 
+.therapy-list__title {
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #22356F;
+    padding-bottom:28px;
+}
+
+.therapy-list__text {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+}
