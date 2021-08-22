@@ -284,6 +284,8 @@ h3 {
 .help__box::after {
     background-image: url('./images/Ellipse.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     content:'';
     color: #E9B730;
     width: 12px;
@@ -292,7 +294,6 @@ h3 {
     top: 100px;
     position: absolute;
 } 
-
 
 .help__box:first-child {
     background-color: #FFE2DE;
@@ -309,4 +310,81 @@ h3 {
 .help__box:nth-child(4) {
     background-color: #0052C1;
 }
+
+.complex {
+    margin-bottom: 20px;
+}
+
+.complex__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(2,1fr);
+}
+
+.complex__box {
+    width: 480px;
+    height: 480px;    
+    font-family: 'Larsseit-Bold';
+    color:#FFFFFF;
+    font-size: 32px;
+    line-height: 34px;
+    padding: 125px 219px 0 104px ;
+    position: relative;
+}
+
+.complex__box::before{
+    background-image: url('./images/Rectangle\ 2.1.svg');
+    background-repeat: no-repeat;
+    content:'';
+    color: #FFFFFF;
+    width: 340px;
+    height: 96px;
+    left: 70px;
+    top: 75px;
+    position: absolute;
+}
+
+.complex__box::after{
+    background-image: url('./images/Ellipse.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content:'';
+    color: #E9B730;
+    width: 12px;
+    height: 12px;
+    left: 70px;
+    top: 135px;
+    position: absolute;
+}
+
+.complex__box:first-child {
+    background-color:#22356F;
+}
+
+.complex__box:nth-child(2) {
+    background-color:#0052C1;
+}
+
+.complex__box:nth-child(3) {
+    background-image:url('./images/joanna-kosinska-340748.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.complex__box:nth-child(4) {
+    background-color: #62D0DF;
+}
+
+.complex__box:nth-child(5) {
+    background-color: #DEE1FF;
+}
+
+.complex__box:nth-child(6) {
+    background-color: #8F00FF;
+}
+
+
+
 
