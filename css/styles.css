@@ -191,13 +191,13 @@ h3 {
 
 
 .desc__wrapper {
-    display:grid;
-    grid-template-columns: 2fr 525px;
+    display:flex;
     background-color:#62D0DF;
 }
 
 .desc__inner {
     padding-top: 150px;
+    flex-grow: 1;
 }
 
 .desc__title {
@@ -222,7 +222,7 @@ h3 {
 
 .desc__pic {
     width: 100%;
-    height: 604px;
+    height: 100%;
 }
 
 .help{
